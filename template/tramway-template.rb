@@ -1,1 +1,1 @@
-say "Hey! Let's start withe the Tramway Template installation"
+say "Hey! Let's put this Tramway on Rails"
