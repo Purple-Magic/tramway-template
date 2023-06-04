@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "test_helper"
+require 'test_helper'
 
 class ExampleTest < GeneratorTestCase
   template <<~'CODE'
@@ -11,9 +11,8 @@ class ExampleTest < GeneratorTestCase
     run_generator do |output|
       assert_line_printed(
         output,
-        "Hey from the included template!"
+        'Hey from the included template!'
       )
     end
   end
 end
-
