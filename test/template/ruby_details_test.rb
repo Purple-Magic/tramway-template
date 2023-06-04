@@ -29,7 +29,7 @@ class RubyDetailsTest < GeneratorTestCase
     run_generator(input: ["2.7.5"]) do |output|
       assert_line_printed(
         output,
-        "Which Ruby version would you like to use? (For example, 3.2.0)"
+        "Which Ruby version would you like to use? (For example, 3.2.2)"
       )
       assert_line_printed(
         output,

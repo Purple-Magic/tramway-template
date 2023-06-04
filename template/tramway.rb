@@ -2,7 +2,6 @@ say "Let's put this Tramway on Rails"
 
 DOCKER_DEV_ROOT = ".dockerdev"
 
-# Prepare variables and utility files
 <%= include "app_details" %>
 <%= include "ruby_details" %>
 <%= include "aptfile" %>
