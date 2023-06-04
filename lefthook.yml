@@ -1,0 +1,5 @@
+pre-push:
+  commands:
+    test:
+      tags: backend test
+      run: rake
