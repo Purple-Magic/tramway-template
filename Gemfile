@@ -1,17 +1,14 @@
 # frozen_string_literal: true
 
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'debug'
+gem "debug"
+gem "dead_end"
 
-gem 'rbytes'
+gem "rbytes"
 
-gem 'rake'
+gem "rake"
 
-gem 'minitest'
-gem 'minitest-focus'
-gem 'minitest-reporters'
-
-group 'development' do
-  gem 'rubocop'
-end
+gem "minitest"
+gem "minitest-focus"
+gem "minitest-reporters"
